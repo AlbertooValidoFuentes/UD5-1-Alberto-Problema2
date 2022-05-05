@@ -34,10 +34,10 @@ public class Main {
                 System.out.println("El resultado es " + resultadoCalculo);
                 break;
             case "*":
-                int numeroUno = pilaEnteros.pop();
-                int numeroDos = pilaEnteros.pop();
+                int numeroUnoMultiplicacion = pilaEnteros.pop();
+                int numeroDosMultipliacion = pilaEnteros.pop();
 
-                int resultadoMultiplicacion = numeroUno * numeroDos;
+                int resultadoMultiplicacion = numeroUnoMultiplicacion * numeroDosMultipliacion;
                 System.out.println("El resultado es: " +  resultadoMultiplicacion);
                 break;
             case "/":
